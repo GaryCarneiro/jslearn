@@ -1,8 +1,10 @@
+"use strict";
 function calculate() {
-  var amount = document.getElementById("amount");
-  var apr = document.getElementById("apr");
-  var years = document.getElementById("years");
-
-  //console.log(parseInt(amount.value) + parseInt(apr.value));
-
+    var amount = document.getElementById("amount");
+    var apr = document.getElementById("apr");
+    var years = document.getElementById("years");
+    var zipcode = document.getElementById("zipcode");
+    var payment = document.getElementById("payment");
+    var total = document.getElementById("total") ;
+    var totalinterest = document.getElementById("totalinterest")
 }
